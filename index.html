@@ -3,19 +3,127 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
+  <!-- Open Graph para WhatsApp/Facebook -->
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://miamuerte8-creator.github.io/contineltal/">
+  <meta property="og:site_name" content="El Continental Gaming House">
   <meta property="og:title" content="El Continental Gaming House">
   <meta property="og:description" content="Gaming House internacional de élite. Veni · Vidi · Vici.">
-  <meta property="og:image" content="og-image.png">
-  <meta property="og:url" content="/">
-
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:image" content="https://i.postimg.cc/htY30Hzq/logo-og-1200x630.png">
+  <meta property="og:image:secure_url" content="https://i.postimg.cc/htY30Hzq/logo-og-1200x630.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="El Continental Gaming House">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="El Continental Gaming House">
+  <meta name="twitter:description" content="Gaming House internacional de élite. Veni · Vidi · Vici.">
+  <meta name="twitter:image" content="https://i.postimg.cc/htY30Hzq/logo-og-1200x630.png">
+  
   <title>El Continental Gaming House</title>
-
-  <meta http-equiv="refresh" content="0;url=https://sauna-crave-66020025.figma.site/">
+  <meta name="description" content="Gaming House internacional de élite. Veni · Vidi · Vici.">
+  
+  <!-- Redirección automática después de 1 segundo -->
+  <meta http-equiv="refresh" content="1;url=https://sauna-crave-66020025.figma.site/">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background: linear-gradient(135deg, #000000 0%, #1a0000 100%);
+      color: #D4AF37;
+      font-family: 'Georgia', serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+    
+    .container {
+      animation: fadeIn 0.5s ease-in;
+    }
+    
+    .logo {
+      font-size: 120px;
+      margin-bottom: 20px;
+      animation: pulse 2s ease-in-out infinite;
+      text-shadow: 0 0 30px rgba(212, 175, 55, 0.5);
+    }
+    
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 16px;
+      letter-spacing: 2px;
+      text-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+    }
+    
+    .subtitle {
+      color: #8B0000;
+      letter-spacing: 8px;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    
+    .loading {
+      color: #666;
+      font-size: 14px;
+      letter-spacing: 2px;
+      margin-top: 20px;
+    }
+    
+    .loading::after {
+      content: '...';
+      animation: dots 1.5s steps(4, end) infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { 
+        opacity: 1; 
+        transform: scale(1);
+      }
+      50% { 
+        opacity: 0.7; 
+        transform: scale(1.05);
+      }
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes dots {
+      0%, 20% { content: '.'; }
+      40% { content: '..'; }
+      60%, 100% { content: '...'; }
+    }
+  </style>
+  
   <script>
-    window.location.href = "https://sauna-crave-66020025.figma.site/";
+    // Redirección con JavaScript (backup)
+    setTimeout(function() {
+      window.location.href = 'https://sauna-crave-66020025.figma.site/';
+    }, 1000);
   </script>
 </head>
-<body></body>
+<body>
+  <div class="container">
+    <div class="logo">🏛️</div>
+    <h1>El Continental</h1>
+    <p class="subtitle">Veni · Vidi · Vici</p>
+    <p class="loading">Redirigiendo</p>
+  </div>
+</body>
 </html>
